@@ -2,7 +2,7 @@
 Demonstrates using OBJECTS via Turtle Graphics.
 
 Concepts include:
-  -- CONSTRUCT an INSTANCE of a CLASS (we call such instances OBJECTS).
+  -- CSSE 120 (we call such instances OBJECTS).
   -- Make an object   ** DO **   something by using a METHOD.
   -- Reference an object's   ** DATA **   by using an INSTANCE VARIABLE.
 
@@ -62,17 +62,25 @@ dave = rg.SimpleTurtle()
 # ----------------------------------------------------------------------
 dave.forward(100)
 dave.left(90)
-dave.forward(200)
+dave.forward(100)
+dave.left(90)
+dave.forward(100)
+dave.left(90)
+dave.forward(100)
 
 # ----------------------------------------------------------------------
 # Construct a new turtle and ask it to do things.
 # ----------------------------------------------------------------------
 matt = rg.SimpleTurtle('turtle')
-matt.pen = rg.Pen('red', 30)
-matt.speed = 10  # Faster
-matt.backward(50)
+matt.pen = rg.Pen('green', 15)
+matt.speed = 14  # Faster
+matt.backward(200)
 matt.left(90)
-matt.forward(50)
+matt.forward(200)
+matt.right(90)
+matt.forward(200)
+matt.right(90)
+matt.forward(200)
 
 
 ########################################################################
